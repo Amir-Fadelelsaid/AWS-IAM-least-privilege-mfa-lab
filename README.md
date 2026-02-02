@@ -25,3 +25,10 @@ An attempt to escalate permissions was denied by AWS IAM. The cloud-security-use
 was prevented from attaching additional policies due to restricted privileges. 
 This confirms that least-privilege controls are actively enforced and administrative 
 actions are blocked.
+
+![ReadOnly Group](https://github.com/Amir-Fadelelsaid/AWS-IAM-least-privilege-mfa-lab/blob/9d1f72b7b992ad95f1144427c97a3c0de4ee4f09/AWS-IAM-User-Creation-ReadOnly.png)
+### IAM User Creation – Read-Only Security User
+
+A dedicated IAM user (cloud-security-user) was created with restricted access. 
+Credentials were generated and delivered securely, establishing a separate 
+non-root identity for least-privilege access to the AWS environment.
