@@ -17,3 +17,11 @@ The cloud-security-user IAM account is restricted using least-privilege access.
 Only ReadOnlyAccess and password self-management policies are attached, preventing 
 administrative actions while allowing safe visibility into AWS resources. This 
 demonstrates controlled identity permissions aligned with security best practices.
+
+![Blocked Permissions](https://github.com/Amir-Fadelelsaid/AWS-IAM-least-privilege-mfa-lab/blob/b64a484716e8275baae0030796d218a506d5f29c/AWS%20IAM%20Least%20Privilege%20Blocked.png)
+### Least Privilege Enforcement – Action Blocked
+
+An attempt to escalate permissions was denied by AWS IAM. The cloud-security-user 
+was prevented from attaching additional policies due to restricted privileges. 
+This confirms that least-privilege controls are actively enforced and administrative 
+actions are blocked.
